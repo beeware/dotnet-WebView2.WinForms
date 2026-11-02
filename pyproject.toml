@@ -1,6 +1,6 @@
 [build-system]
 requires = [
-    "setuptools==84.0.0",
+    "setuptools==84.2.1",
     "setuptools_scm==10.3.4",
 ]
 build-backend = "setuptools.build_meta"
@@ -50,11 +50,11 @@ pre-commit = [
 ]
 
 setuptools-scm = [
-    "setuptools_scm == 10.2.1",
+    "setuptools_scm == 10.3.4",
 ]
 
 update = [
-    "httpx2 == 2.13.1",
+    "httpx2 == 2.14.0",
 ]
 
 dev = [
